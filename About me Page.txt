@@ -36,7 +36,7 @@ as well as hoping to get a PHD in my respective field in hopes of becoming a pro
 <!-- Addes an image, doesnt need closing -->
 <img src = '365 1x3 Deadlift'>
 </p>
-
+<!-- hi -->
 </body>
 
 </html>
