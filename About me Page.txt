@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title> About Me </title>
+
+<table>
+<tr>
+	<!-- table with links, <a href = 'link' > title </a> -->
+	<th> <a href = 'file:///C:/Users/lukej/Documents/Web%20Design/Home%20Page.html'>
+	Home
+	</a>
+	</th>
+	<th> <a href = 'file:///C:/Users/lukej/Documents/Web%20Design/Skills%20and%20Achievements%20Page.html'>
+	Skills and Achievements
+	</a>
+	</th>
+	<th> <a href = 'file:///C:/Users/lukej/Documents/Web%20Design/References%20Page.html'>
+	References
+	</a>
+	</th>
+</tr>
+</table>
+
+</head>
+
+<body>
+
+<h1> About Me </h1>
+
+<p> My name is Luke Jin and I am a student at the University of Toronto studying computer science. I am an aspiring CPU/IPF 74kg powerlifter
+as well as hoping to get a PHD in my respective field in hopes of becoming a professor.
+<br>
+<!-- Addes an image, doesnt need closing -->
+<img src = '365 1x3 Deadlift'>
+</p>
+
+</body>
+
+</html>

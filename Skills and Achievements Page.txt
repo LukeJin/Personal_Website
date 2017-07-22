@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title> Achievements and Skills </title>
+
+</head>
+
+<body>
+<!-- creates an indent class of 1.8 em -->
+<style>p.indent{ padding-left: 1.8em }</style>
+
+	<h1> My Skills </h1>
+
+	<!-- list, ol = ordered list, ul - unordered -->
+	<h2> Programming Languages Known </h2>
+	<!-- indentation using class above -->
+	<p class = 'indent'>
+	<ul>
+		<li> Java </li>
+		<li> Python </li>
+		<li> HTML </li>
+	</ul>
+	</p>
+	
+	<h2> Achievements </h2>
+	<p class = 'indent'>
+	<ul>
+		<li> University of Toronto Bachelors in Computer Science </li>
+		<li> Honours Graduate in Earl of March Secondary School </li>
+		<li> OFSAA Nordic Skiing Rank 8 </li>
+		<li> Gr 10 Piano with Royal Conservatory of Music </li>
+	</ul>
+	</p>
+
+</body>
+
+</html>
