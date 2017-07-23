@@ -10,6 +10,11 @@ d.addEventListener("DOMContentLoaded", function(){
 		
 	})
 	
+	d.getElementById("submit_butt").addEventListener("click", function () {
+	
+		confirm('Are you ready to submit?');
+		
+	})
 	
 })
 })(document, window);
