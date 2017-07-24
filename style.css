@@ -1,114 +1,103 @@
-*{
-	font-family:'Helvetica', sans-serif;
-	padding: 0;
-	margin: 0;
+* {
+    font-family: 'Helvetica', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-body{
-	padding: 2%;
-	background-color: #343434;
-	color: white;
-	
+body {
+    padding: 0%;
+    background-color: #343434;
+    color: white;
+
 }
 
-#navbar
+#navbar {
+    margin-bottom: 2%;
+
+}
+
 {
-	margin-bottom: 2%;
-	
+    padding: 0
+;
+}
+#navbar ul {
+    list-style: none;
+    background: #ed6800;
+    padding: 10px;
+    padding-left: 0;
 }
 
-{
-	padding: 0;
-}
-#navbar ul{
-	list-style: none;
-	background: #ed6800;
-	padding: 10px;
-	padding-left: 0;
-}
 #navbar ul li {
-	display: inline-block;
-	
-}
-#navbar ul li a
-{
-	background-color: #ed6800;
-	text-decoration: none;
-	font-size: 20pt;
-	padding: 10px;
-	color: white;
-	
+    display: inline-block;
+
 }
 
-#navbar ul li a:hover{
-	background-color: #4885ed
-	
+#navbar ul li a {
+    background-color: #ed6800;
+    text-decoration: none;
+    font-size: 20pt;
+    padding: 10px;
+    color: white;
+
 }
 
-#dropbtn
-{
-	text-decoration: none;
+#navbar ul li a:hover {
+    background-color: #4885ed
+
 }
 
-#lang li
-{
-	margin-left: 30px;
+#dropbtn {
+    text-decoration: none;
 }
 
-#achieve_list li
-{
-	margin-left: 30px;
+#lang li {
+    margin-left: 30px;
 }
 
-#welcome
-{
-	margin-bottom: 30px;
+#achieve_list li {
+    margin-left: 30px;
 }
 
-#welcome h1
-{
-	margin-bottom: 10px;
+#welcome {
+    margin-bottom: 30px;
 }
 
-#offer h2
-{
-	margin-bottom: 10px;
+#welcome h1 {
+    margin-bottom: 10px;
 }
 
-#about h1
-{
-	margin-bottom: 10px
+#offer h2 {
+    margin-bottom: 10px;
 }
 
-#achieve h2
-{
-	margin-top: 10px;
-	margin-bottom: 10px;
+#about h1 {
+    margin-bottom: 10px
 }
 
-#skills h2
-{
-	margin-bottom: 10px;
-	margin-top: 10px;
+#achieve h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#contact
-{
-	background-color: white;
-	padding: 10px;
+#skills h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-#ref
-{
-	background-color: white;
-	padding: 10px;
+#contact {
+    background-color: white;
+    padding: 10px;
 }
 
-fieldset
-{
-	color: black;
-	background-color: white;
-	padding: 10px;
+#ref {
+    background-color: white;
+    padding: 10px;
+}
+
+fieldset {
+    color: black;
+    background-color: white;
+    padding: 10px;
 }
 
 /* Dropdown Button */
@@ -138,7 +127,7 @@ fieldset
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -151,46 +140,48 @@ fieldset
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-.container
-{
-	position: relative;
+.show {
+    display: block;
 }
 
-.center
-{
-	position: absolute;
-	top: 50%;
-	transform: translate(30%, 50%);
-	font-size: 18px;
+.container {
+    position: relative;
 }
 
-#welcome img
-{
-	opacity: 0.6;
+.center {
+    position: absolute;
+    top: 50%;
+    transform: translate(30%, 50%);
+    font-size: 18px;
 }
 
-#welcome img:hover
-{
-	box-shadow: 0 0 10px 10px gray;
+#welcome img {
+    opacity: 0.6;
 }
 
-#welcome p
-{
-	text-decoration: none;
-	color: white;
+#welcome img:hover {
+    box-shadow: 0 0 10px 10px gray;
 }
 
-#learn
-{
-	text-decoration: underline;
-	text-decoration-color: white;
-	color: white;
+#welcome p {
+    text-decoration: none;
+    color: white;
 }
 
+#learn {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+
+.info {
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
 

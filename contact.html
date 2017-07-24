@@ -2,93 +2,93 @@
 <html>
 
 <head>
-<link rel='stylesheet' type='text/css' href='style.css'>
-<script src='script.js'></script>
-<title> Contact Me </title>
-<head>
-
-
-
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='script.js'></script>
+    <title> Contact Me </title>
+    <head>
 
 
 <body>
 <nav id='navbar'>
-<ul>
-<!-- table with links, <a href = 'link' > title </a> -->
-	<li>
-	<a href = 'home.html'>
-	<img src='home_butt.png' style='width:40px;height:40px'>
-	</a>
-	</li>
-	<li> <a href = 'about.html'>
-	About Me
-	</a>
-	</li>
-	<li> <a href = 'skills.html'>
-	Skills and Achievements
-	</a>
-	</li>
-	<li> 
-	<a href = 'contact.html'>
-	Contact Me
-	</a>
-	</li>
-	<li> <a href = 'references.html'>
-	References
-	</a>
-	</li>
-	<li>
-	<div class='dropdown'>
-		<a id='dropbtn'>Content</a>
-		<div id='mydropdown' style="display: none" class='dropdown-content'>
-			<a href='home.html'>Blog</a>
-			<a href='home.html'>Share</a>
-			<a href='home.html'>Resources</a>
-		</div>
-	</div>
-	</li>
-</ul>
+    <ul>
+        <!-- table with links, <a href = 'link' > title </a> -->
+        <li>
+            <a href='home.html'>
+                <img src='home_butt.png' style='width:40px;height:40px'>
+            </a>
+        </li>
+        <li><a href='about.html'>
+            About Me
+        </a>
+        </li>
+        <li><a href='skills.html'>
+            Skills and Achievements
+        </a>
+        </li>
+        <li>
+            <a href='contact.html'>
+                Contact Me
+            </a>
+        </li>
+        <li><a href='references.html'>
+            References
+        </a>
+        </li>
+        <li>
+            <div class='dropdown'>
+                <a id='dropbtn'>Content</a>
+                <div id='mydropdown' style="display: none" class='dropdown-content'>
+                    <a href='home.html'>Blog</a>
+                    <a href='home.html'>Share</a>
+                    <a href='home.html'>Resources</a>
+                </div>
+            </div>
+        </li>
+    </ul>
 </nav>
-<!-- Inserting textbox -->
-<form action='' method=''>
-<!-- fieldset = setting an outline -->
-<div id='contact'>
-<fieldset>
 
-<!-- legend adds a header to the field -->
-<legend> <h1> Contact Me </h1> </legend>
-<!-- Inserting label -->
-<!-- strong = bold -->
-<label for='name'> <strong>Name:</strong> </label>
+<div class="info">
+    <!-- Inserting textbox -->
+    <form action='' method=''>
+        <!-- fieldset = setting an outline -->
+        <div class='info' id='contact'>
+            <fieldset>
 
-<input type ='text' id='name' name=''>
-<label for='email'> <strong>Email:</strong> </label>
+                <!-- legend adds a header to the field -->
+                <legend><h1> Contact Me </h1></legend>
+                <!-- Inserting label -->
+                <!-- strong = bold -->
+                <label for='name'> <strong>Name:</strong> </label>
 
-<input type ='text' id='email' name='' size = '50'>
-<br>
-<br>
+                <input type='text' id='name' name=''>
+                <label for='email'> <strong>Email:</strong> </label>
 
-<strong>Purpose of Contact:</strong><br><br>
+                <input type='text' id='email' name='' size='50'>
+                <br>
+                <br>
 
-<!-- drop down -->
-<select>
+                <strong>Purpose of Contact:</strong><br><br>
 
-<option value='Freelance Hire'>Freelance Hire</option>
-<option value='Other'>Other</option>
+                <!-- drop down -->
+                <select>
 
-</select>
-<br>
-<br>
+                    <option value='Freelance Hire'>Freelance Hire</option>
+                    <option value='Other'>Other</option>
 
-<strong>Comments:<strong><br>
-<!-- multi line text with submit button on second row -->
-<textarea rows='10' cols='90'></textarea>
-<br>
-<input type ='submit' id='submit_butt' value='Submit'>
+                </select>
+                <br>
+                <br>
 
-</fieldset>
+                <strong>Comments:<strong><br>
+                    <!-- multi line text with submit button on second row -->
+                    <textarea rows='10' cols='90'></textarea>
+                    <br>
+                    <input type='submit' id='submit_butt' value='Submit'>
+
+            </fieldset>
+        </div>
+    </form>
 </div>
-</form>
 
 </body>
 
