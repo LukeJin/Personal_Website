@@ -6,7 +6,7 @@
 
 body{
 	padding: 2%;
-	background-image: url('bg.jpg');
+	background-color: #343434;
 	color: white;
 	
 }
@@ -22,7 +22,7 @@ body{
 }
 #navbar ul{
 	list-style: none;
-	background: #4885ed;
+	background: #ed6800;
 	padding: 10px;
 	padding-left: 0;
 }
@@ -32,7 +32,7 @@ body{
 }
 #navbar ul li a
 {
-	background-color: #4885ed;
+	background-color: #ed6800;
 	text-decoration: none;
 	font-size: 20pt;
 	padding: 10px;
@@ -41,7 +41,7 @@ body{
 }
 
 #navbar ul li a:hover{
-	background-color: #db3236
+	background-color: #4885ed
 	
 }
 
