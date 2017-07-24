@@ -16,14 +16,10 @@ body {
 
 }
 
-{
-    padding: 0
-;
-}
 #navbar ul {
     list-style: none;
     background: #ed6800;
-    padding: 10px;
+    padding-bottom: 10px;
     padding-left: 0;
 }
 
